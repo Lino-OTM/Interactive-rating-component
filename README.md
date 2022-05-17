@@ -6,13 +6,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ![](/design/desktop-preview.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Interactive-rating-component/
 
 ### Built with:
 
 - HTML
 - CSS
 - SASS
+- Vanilla JS
 
 - Also used normalize.css library to reset the styles.
 
