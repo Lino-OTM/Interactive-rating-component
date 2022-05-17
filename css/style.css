@@ -1,0 +1,128 @@
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  background-color: #121417;
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.rating-container {
+  background-color: #1e252f;
+  border-radius: 2rem;
+  padding: 2.6rem;
+  box-sizing: border-box;
+  width: 88%;
+  max-width: 41rem;
+}
+.rating-container__icon-container {
+  margin: 0 0 2rem;
+  display: inline-block;
+  background-color: #232b37;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating-container__icon {
+  width: 1.5rem;
+}
+.rating-container__title {
+  font-size: 2.35rem;
+  margin-bottom: 0;
+}
+.rating-container__text {
+  margin: 1.4rem 0 2.6rem;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  color: #7c8798;
+}
+.rating-container__btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-container__btn {
+  background-color: #232b37;
+  color: #7c8798;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 50%;
+  padding: 1.4rem;
+  width: 4.2rem;
+  height: 4.2rem;
+}
+.rating-container__btn:hover {
+  background-color: #fb7413;
+  color: white;
+  cursor: pointer;
+}
+.rating-container__btn:focus {
+  background-color: #959eac;
+  color: white;
+}
+.rating-container__submit-btn {
+  display: block;
+  width: 100%;
+  margin: 2.4rem auto 0.4rem;
+  background-color: #fb7413;
+  color: white;
+  border-radius: 3rem;
+  border: 0;
+  padding: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+.rating-container__submit-btn:hover {
+  background-color: white;
+  color: #fb7413;
+  cursor: pointer;
+}
+
+.rating-container__align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.rating-container__illustration-container {
+  width: 15rem;
+  margin: 0 auto 2rem;
+}
+.rating-container__illustration {
+  width: 100%;
+}
+.rating-container__score {
+  background-color: #232b37;
+  border-radius: 3rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 0 auto;
+  color: #fb7413;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #fb7413;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.rating-container {
+  padding: 3.5rem;
+
+  &__icon-container {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  &__title {
+    font-size: 2.8rem;
+  }
+
+  &__text {
+    font-size: 1.5rem;
+  }
+}
+
+.rating-2 {
+  .rating-container__title {
+    margin-top: 3.4rem;
+  }
+}

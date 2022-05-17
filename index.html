@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An interactive rating component with vanilla JS"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" media="(min-width: 800px)" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <!-- Rating state start -->
+      <div class="rating-container rating-1">
+        <figure class="rating-container__icon-container">
+          <img
+            class="rating-container__icon"
+            src="./images/icon-star.svg"
+            alt="A star icon"
+          />
+        </figure>
+        <h1 class="rating-container__title">How did we do?</h1>
+        <p class="rating-container__text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="rating-container__btn-wrapper">
+          <button class="rating-container__btn">1</button>
+          <button class="rating-container__btn">2</button>
+          <button class="rating-container__btn">3</button>
+          <button class="rating-container__btn">4</button>
+          <button class="rating-container__btn">5</button>
+        </div>
+        <button class="rating-container__submit-btn">SUBMIT</button>
+      </div>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="rating-container rating-2 hidden">
+        <div class="rating-container__align">
+          <figure class="rating-container__illustration-container">
+            <img
+              class="rating-container__illustration"
+              src="./images/illustration-thank-you.svg"
+              alt="A feedback illustration"
+            />
+          </figure>
+          <p class="rating-container__score">
+            You selected
+            <span class="rating-container__selected-score">0</span> out of
+            <span>5</span>
+          </p>
+          <h1 class="rating-container__title">Thank you!</h1>
+          <p class="rating-container__text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Ivan</a>.
+        </div>
+    
+    </main>
+    <!-- Thank you state end -->
+    <script src="./js/rating.js"></script>
+  </body>
+</html>
